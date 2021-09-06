@@ -32,3 +32,15 @@ If there are results,
 the user should be able to press on the result and redirected to the GIT repo.
 
 =================================================================================
+
+1.Created an app to find repositories on gitHub
+
+2.Search is triggered after 500ms delay
+
+3. In the search history line, we display the 5 latest results, which do not disappear upon refresh the page
+
+4. As a result, 10 items are displayed per page
+
+5. By clicking on the link button we can go to the git page of current item
+
+6. Also we hade pagination of search items
