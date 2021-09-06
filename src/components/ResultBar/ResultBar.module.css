@@ -1,0 +1,89 @@
+.resultBarWrapper {
+    width: 75%;
+}
+
+.resultsList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.resultItem {
+    position: relative;
+    display: flex;
+    width: 42%;
+    min-height: 150px;
+    margin-top: 20px;
+    padding: 15px;
+    background:#fff;
+    border: none;
+    border-radius:20px;
+    word-wrap: break-word;
+
+}
+
+.resultItem:hover {
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   transition-duration: 300ms;
+   transform: scale(1.02);
+}
+
+.avatar {
+    width:70px;
+    height:70px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+.infoWrapper {
+    max-width: 60%;
+    border-left: 1px solid rgba(0, 0, 0, 0.129);
+    padding: 10px;
+    word-wrap: break-word;
+}
+
+.resultItem p {
+    margin-bottom: 15px;
+}
+
+.searchName {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.organizationName {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.description {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 30px;
+    color: rgb(52, 49, 49);
+    font-weight: 600;
+    text-decoration: none;
+    background-color: rgb(176, 199, 245);
+    border:1px solid rgba(0, 0, 0, 0.129);
+    border-radius:5px;
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+}
+
+.emptyResultsText{
+    text-align: center;
+    margin-top:80px;
+    font-size: 28px;
+    line-height: 1.2;
+    text-align: center;
+    color: #fff;
+}
